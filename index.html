@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#040a1c" />
+  <meta name="description" content="Commander Vrax ($VRAX) on Robinhood Chain. You think you have stopped us. All hands on deck." />
+  <title>Commander Vrax ($VRAX) — Robinhood Chain</title>
+  <link rel="icon" href="logo.jpg" type="image/jpeg" />
+  <link rel="apple-touch-icon" href="logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script>
+    tailwind = {
+      config: {
+        theme: {
+          extend: {
+            colors: {
+              ink: "#040a1c",
+              accent: "#8ebfff"
+            },
+            fontFamily: {
+              sans: ["Barlow", "sans-serif"],
+              display: ["Barlow Condensed", "sans-serif"]
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <a class="skip" href="#about">Skip to content</a>
+
+  <header class="site-header">
+    <div class="mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 py-3">
+      <a class="brand" href="#top">
+        <img src="logo.jpg" alt="" width="512" height="512" />
+        <span class="brand-name">VRAX</span>
+        <span class="ticker">$VRAX</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about" data-nav>About</a>
+        <a href="#how-to-buy" data-nav>How to Buy</a>
+        <a href="#community" data-nav>Community</a>
+        <a href="#chart" data-nav>Chart</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <a class="btn btn-primary btn-sm" data-buy href="#" aria-disabled="true">Buy Now</a>
+        <button class="menu-btn" type="button" data-menu aria-expanded="false" aria-controls="site-menu" aria-label="Open menu">
+          <svg class="icon-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+          <svg class="icon-close" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" /></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="site-menu" class="menu-panel" data-menu-panel hidden>
+      <a href="#about" data-nav>About</a>
+      <a href="#how-to-buy" data-nav>How to Buy</a>
+      <a href="#community" data-nav>Community</a>
+      <a href="#chart" data-nav>Chart</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <img class="hero-bg" src="banner.jpg" alt="" width="1500" height="500" fetchpriority="high" />
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <img class="hero-logo" src="logo.jpg" alt="Commander Vrax" width="512" height="512" />
+        <div class="kicker-row">
+          <span>Commander</span>
+          <span class="kicker-line"></span>
+        </div>
+        <h1 class="display">VRAX</h1>
+        <p class="chain-badge">$VRAX / Robinhood</p>
+        <p class="tagline">You think you have stopped us.<br />All hands on deck.</p>
+
+        <div class="ca-box">
+          <span class="ca-label">CA</span>
+          <code class="ca-value" data-ca translate="no">TBA</code>
+          <button class="btn btn-primary btn-sm" type="button" data-copy aria-label="Copy contract address">Copy</button>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" data-buy href="#" aria-disabled="true">Buy Now</a>
+          <a class="btn btn-ghost btn-icon" data-social="twitter" href="#" aria-disabled="true" aria-label="X">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
+          </a>
+          <a class="btn btn-ghost btn-icon" data-social="telegram" data-social-block href="#" aria-disabled="true" aria-label="Telegram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.94 4.36 18.7 19.7c-.24 1.08-.9 1.34-1.82.84l-5.02-3.7-2.42 2.33c-.27.27-.5.5-1.02.5l.36-5.16 9.4-8.49c.41-.36-.09-.56-.63-.2L6.1 12.3 1.08 10.73c-1.09-.34-1.11-1.09.23-1.61L20.48 2.9c.9-.34 1.7.2 1.46 1.46z" /></svg>
+          </a>
+        </div>
+
+        <p class="live"><span class="live-dot" aria-hidden="true"></span> Robinhood • Live</p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="mx-auto max-w-6xl px-5">
+        <h2 class="section-title">About</h2>
+        <p class="lede">Commander Vrax is the cream cat on the Robinhood Chain bridge. The coat is light, the ring is blue, and the order is already out: all hands on deck. $VRAX is that call sign. The line under the banner is the whole thesis. You think you have stopped us.</p>
+        <div class="mt-10 grid gap-4 md:grid-cols-3">
+          <article class="card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l2.2 4.6L19 8.2l-3.5 3.4.8 4.9L12 14.8 7.7 16.5l.8-4.9L5 8.2l4.8-.6L12 3z" /></svg>
+            </div>
+            <h3>The Rank</h3>
+            <p>Commander. Cream coat. Blue ring. The face on the bridge is the face of the coin.</p>
+          </article>
+          <article class="card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M8 12a4 4 0 0 1 4-4h2V6h-2a6 6 0 0 0 0 12h2v-2h-2a4 4 0 0 1-4-4zm3-1h2v2h-2v-2zm5-5h-2v2h2a4 4 0 0 1 0 8h-2v2h2a6 6 0 0 0 0-12z" /></svg>
+            </div>
+            <h3>The Deck</h3>
+            <p>Robinhood Chain is home. ETH pays the gas. Uniswap is where the swap clears.</p>
+          </article>
+          <article class="card">
+            <div class="icon-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 10-14h-7l0-6z" /></svg>
+            </div>
+            <h3>The Order</h3>
+            <p>All hands on deck. One call sign, one crew, and a chart that stays in the open.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-to-buy">
+      <div class="mx-auto max-w-6xl px-5">
+        <h2 class="section-title">How to Buy</h2>
+        <p class="lede">Four steps. One chain. No detour.</p>
+        <div class="callout mt-8">
+          <p class="callout-title">You're on Robinhood Chain.</p>
+          <p data-ca-note>ETH pays the gas. Uniswap is the swap. The contract on this page reads TBA until it is published.</p>
+        </div>
+        <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="card step-card">
+            <span class="step-no">01</span>
+            <h3>Open a wallet</h3>
+            <p>Use MetaMask, Rabby, or any wallet that can add a custom network.</p>
+          </article>
+          <article class="card step-card">
+            <span class="step-no">02</span>
+            <h3>Switch network</h3>
+            <p>Select Robinhood Chain. Chain ID 4663. ETH is the gas token.</p>
+          </article>
+          <article class="card step-card">
+            <span class="step-no">03</span>
+            <h3>Fund the wallet</h3>
+            <p>Move a little ETH onto Robinhood Chain so the transaction can clear.</p>
+          </article>
+          <article class="card step-card">
+            <span class="step-no">04</span>
+            <h3>Swap for $VRAX</h3>
+            <p>Open the swap, confirm the contract, and bring $VRAX onto the deck.</p>
+          </article>
+        </div>
+        <div class="mt-8 flex justify-center">
+          <a class="btn btn-primary" data-buy href="#" aria-disabled="true">Swap on Dex</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="community">
+      <div class="mx-auto max-w-6xl px-5">
+        <h2 class="section-title">Join Us</h2>
+        <p class="lede">The watch is public. Fall in.</p>
+        <div class="mt-10 grid gap-4 md:grid-cols-2">
+          <article class="card social-card">
+            <div class="social-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
+            </div>
+            <h3>X</h3>
+            <p>Stills, orders, and the bridge. Follow Commander Vrax.</p>
+            <a class="btn btn-ghost mt-auto" data-social="twitter" href="#" aria-disabled="true">Follow on X</a>
+          </article>
+          <article class="card social-card" data-social-block>
+            <div class="social-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path fill="currentColor" d="M21.94 4.36 18.7 19.7c-.24 1.08-.9 1.34-1.82.84l-5.02-3.7-2.42 2.33c-.27.27-.5.5-1.02.5l.36-5.16 9.4-8.49c.41-.36-.09-.56-.63-.2L6.1 12.3 1.08 10.73c-1.09-.34-1.11-1.09.23-1.61L20.48 2.9c.9-.34 1.7.2 1.46 1.46z" /></svg>
+            </div>
+            <h3>Telegram</h3>
+            <p>The crew channel. Short calls from the deck.</p>
+            <a class="btn btn-ghost mt-auto" data-social="telegram" href="#" aria-disabled="true">Join Telegram</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="chart">
+      <div class="mx-auto max-w-6xl px-5">
+        <h2 class="section-title">Live Chart</h2>
+        <p class="lede">The Robinhood Chain market, embedded from DexScreener once the contract is live.</p>
+        <div class="chart-frame mt-8" data-chart-frame>
+          <div class="chart-placeholder">
+            <p class="chart-kicker">DexScreener</p>
+            <p>The chart opens when the contract address is published.</p>
+          </div>
+        </div>
+        <p class="mt-5 text-center">
+          <a class="text-link" data-chart-link href="#" aria-disabled="true">Open on DexScreener</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="mx-auto max-w-6xl px-5">
+      <div class="grid gap-10 md:grid-cols-3">
+        <div>
+          <a class="brand" href="#top">
+            <img src="logo.jpg" alt="" width="512" height="512" />
+            <span class="brand-name">VRAX</span>
+          </a>
+          <p class="footer-tag">All hands on deck.</p>
+        </div>
+        <div>
+          <h2 class="footer-heading">Quick Links</h2>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#how-to-buy">How to Buy</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#chart">Chart</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="footer-heading">Social</h2>
+          <div class="footer-social">
+            <a class="btn btn-ghost btn-icon" data-social="twitter" href="#" aria-disabled="true" aria-label="X">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z" /></svg>
+            </a>
+            <a class="btn btn-ghost btn-icon" data-social="telegram" data-social-block href="#" aria-disabled="true" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.94 4.36 18.7 19.7c-.24 1.08-.9 1.34-1.82.84l-5.02-3.7-2.42 2.33c-.27.27-.5.5-1.02.5l.36-5.16 9.4-8.49c.41-.36-.09-.56-.63-.2L6.1 12.3 1.08 10.73c-1.09-.34-1.11-1.09.23-1.61L20.48 2.9c.9-.34 1.7.2 1.46 1.46z" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="ca-box ca-box-footer">
+        <span class="ca-label">Contract</span>
+        <code class="ca-value" data-ca translate="no">TBA</code>
+        <button class="btn btn-primary btn-sm" type="button" data-copy aria-label="Copy contract address">Copy</button>
+      </div>
+
+      <p class="disclaimer">$VRAX is a meme coin on Robinhood Chain. It has no intrinsic value and no promised return. Nothing on this page is financial advice. Trade only what you can afford to lose.</p>
+      <p class="copyright">© 2026 Commander Vrax</p>
+    </div>
+    <p class="sr-only" data-copy-status role="status" aria-live="polite"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
